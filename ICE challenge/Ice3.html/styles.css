@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.split-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.white-side {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.grey-side {
+    flex: 1;
+    background-color: #808080;
+    padding: 20px;
+    color: #ffffff; 
+}
+.white-side {
+    flex: 1;
+    background-color: #ffffff00; /* White background color */
+    padding: 20px; /* Add padding for content */
+    display: flex;
+    justify-content: left; /* Horizontally center the image */
+    align-items: left; /* Vertically center the image */
+}
+
+.white-side img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+}
+
