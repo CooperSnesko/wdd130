@@ -344,3 +344,17 @@ footer {
         margin-top: 25px;
     }
   }
+  .page2grid {
+    display: grid;
+grid-template-columns:1fr 2fr;
+gap: 25px;
+margin-top: 10px;
+
+  }
+  .page2border {
+    border:5px solid #172121
+  }
+  .imgfit {
+    width: 100%;
+  }
+  
