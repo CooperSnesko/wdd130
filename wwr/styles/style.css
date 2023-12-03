@@ -357,4 +357,17 @@ margin-top: 10px;
   .imgfit {
     width: 100%;
   }
-  
+
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
